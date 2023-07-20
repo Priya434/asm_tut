@@ -2,6 +2,8 @@
 
 A list of all the asm codes that helped me learn assembly.
 
+NASM assembler is used.
+
 Run Code:
 ```
 nasm -f elf64 code.asm -o code.o
