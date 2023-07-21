@@ -1,6 +1,22 @@
 # Assembly Tutorial
 
-A list of all the asm codes that helped me learn assembly.
+- register VS variable:
+```
+register	value
+[register]	memory
+
+variable	memory
+[variable]	value
+```
+
+- valid mov instructions
+```
+mov  register, register     ; copy one register to another
+mov  register, memory       ; load value from memory into register
+mov  memory,   register     ; store value from register into memory
+mov  register, immediate    ; move immediate value (constant) into register
+mov  memory,   immediate    ; store immediate value (constant) in memory
+```
 
 NASM assembler is used.
 
