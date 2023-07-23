@@ -1,5 +1,7 @@
 # Assembly Tutorial
 
+Assembly NASM x86_64
+
 - register VS variable:
 ```
 register	value
@@ -17,8 +19,6 @@ mov  memory,   register     ; store value from register into memory
 mov  register, immediate    ; move immediate value (constant) into register
 mov  memory,   immediate    ; store immediate value (constant) in memory
 ```
-
-Assembly NASM x86_64
 
 Run Code:
 ```
