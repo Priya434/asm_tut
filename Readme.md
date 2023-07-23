@@ -18,7 +18,7 @@ mov  register, immediate    ; move immediate value (constant) into register
 mov  memory,   immediate    ; store immediate value (constant) in memory
 ```
 
-NASM assembler is used.
+Assembly NASM x86_64
 
 Run Code:
 ```
